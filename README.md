@@ -3,9 +3,10 @@
 ### Grundkonzept
 
 - ConsoleApp
-- C
-- Minimax/Alpha-Beta-Pruning
-- Wahrscheinlichkeitsbasierte Entscheidung
+- language: C
+- test-framework: https://aceunit.sourceforge.net/glossary
+- algorithm: Minimax/Alpha-Beta-Pruning
+- concept: Wahrscheinlichkeitsbasierte Entscheidung
 
 ### Algorithmus
 - #### Bid-Phase
@@ -19,3 +20,8 @@
   - Schauen ob geschoben oder gezogen wird, je nachdem zuerst versuchen Stiche zu machen, oder zu vermeiden
 - #### Game Decisions
   - Betrachtung des Leaderboards um dann gegebenenfalls gezielt gegen die Spieler vor sich zu spielen
+ 
+### Units (+ Tests)
+- Anzahl Karten die von einer Karte gestochen werden
+- Wahrscheinlichkeit Stich zu bekommen
+- ...
