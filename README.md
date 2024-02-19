@@ -41,6 +41,7 @@
 - Game-Graph generieren
 - Game-Graph um einen Stich reduzieren
 - Wahrscheinlichkeit für einen Kantenzug im Game-Graph berechnen
+- Wahrscheinlichkeit berechnen, mit der eine Karte im Spiel ist
 
 ### Anmerkung
 GameTree statt GameGraph, da die im Vorfeld gespielten Kartein einen Einfluss auf die Wahrscheinlichkeit haben 
